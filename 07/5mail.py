@@ -35,8 +35,8 @@ msg['To'] = to_addr
 msg.attach(MIMEText(content, content_type))
 
 mail = SMTP(smtp)
-mail.ehlo
+mail.ehlo()
 mail.starttls()
 mail.login(username,password)
 mail.sendmail(from_addr,to_addr,msg.as_string())
-mail.quit
+mail.quit()

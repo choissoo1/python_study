@@ -1,4 +1,4 @@
-날짜,서울시 일일 확진,서울시 일일 사망,전국 일일 확진,전국 일일 사망
+covid_date,seoul_confirmed,seoul_death,korea_confirmed,korea_death
 2023-05-31,5987,6,24411,17
 2023-05-30,3326,1,13529,7
 2023-05-29,1393,1,6868,3
